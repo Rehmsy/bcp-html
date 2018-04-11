@@ -5,6 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        h1 {
+            color: red;
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+
+        li {
+            border: 1px solid blue;
+            padding-top: 10px;
+            padding-right: 30px;
+            padding-bottom: 10px;
+            padding-left: 200px;
+        }
+
+        .content {
+            color: green;
+        }
+
+        article .content {
+            border: 1px dashed purple;
+        }
+        
+        body {
+            background-color:azure;
+        }
+
+        img {
+            margin-top: 100px;
+            margin-bottom: 100px;
+            margin-right: 150px;
+            margin-left: 80px;
+        }
+
+        p {
+            color:rebeccapurple;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -17,9 +59,10 @@
         
         <a href="#cat-list">List o' Cats</a><br>
         <a href="#flower-list">Top Flowers</a>
+        <hr>
         
-        <p>This is some text in the body.</p>
-        <p>Hello there!</p>
+        <p>This is some text in the body.</p><br>
+        <p class="content">Hello there! I'm outside the article. Hey!</p>
         
         <hr>
 
@@ -30,24 +73,27 @@
             <li>Little grey cat</li>
             <li>Piewacket</li>
         </ul>
+
         <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Cat_poster_1.jpg " width = "700">
+
 <article>
 <p class="content">
     There are so many cats! One cat, two cat, three cat, four cat, five cat...... <br>
-    CAT CAT CAT
+    CAT CAT CAT blah blah blah blah blah My class is content in the article.
 </p>
 
 <h2>Top Flowers</h2>
-<ol id="flower-list">
-    <li>Puff Tangle</li>
-    <li>Ugly Snitchflower</li>
-    <li>Rose</li>
+    <ol id="flower-list">
+        <li>Puff Tangle</li>
+        <li>Ugly Snitchflower</li>
+        <li>Rose</li>
     </ol>
 
     <h2>Not a flower</h2>
     <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Chalcolithic_leather_shoe_from_Areni-1_cave.jpg" width = "350">
-
-</article>
+    <p>Tell me more.....</p>
+    
+    </article>
     </main>
     <footer>
 
